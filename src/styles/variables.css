@@ -1,0 +1,17 @@
+:root {
+  /* 主色调 */
+  --primary-color: #4A90E2;    /* 明亮的蓝色 */
+  --secondary-color: #FFB946;  /* 温暖的橙色 */
+  
+  /* 辅助色 */
+  --accent-1: #2ECC71;  /* 活力绿 */
+  --accent-2: #FF6B6B;  /* 温暖红 */
+  
+  /* 文字颜色 */
+  --text-primary: #333333;
+  --text-secondary: #666666;
+  
+  /* 背景色 */
+  --bg-light: #F5F7FA;
+  --bg-white: #FFFFFF;
+} 

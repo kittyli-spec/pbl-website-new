@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 移动端优先的响应式设计 */
+.container {
+  width: 100%;
+  padding: 0 1rem;
+  margin: 0 auto;
+}
+
+/* 平板设备 */
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding: 0 2rem;
+  }
+}
+
+/* 桌面设备 */
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+    padding: 0 4rem;
+  }
+} 
